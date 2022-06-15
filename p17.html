@@ -1,0 +1,408 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>program1</title>
+  <link rel="icon" href="../images/small.png">
+  <link rel="stylesheet" href="../css/program.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:ital@1&family=Playfair+Display&family=Source+Sans+Pro&family=Tapestry&display=swap" rel="stylesheet">
+  <style>
+  iframe{
+    background-color: white;
+    border:2px soliD black;
+  }
+    section div h1{
+        background-color:black;
+    padding:5px;
+    border-radius:10px;
+	color:white;
+	height: 25px;
+    font-weight: bolder;
+    width: 100px;
+    text-align: center;
+align-items: center;
+
+    
+  }
+  section div a {
+      display:block;
+      text-decoration: none;
+      color:white;
+      text-align: center;
+      display: inline-block;
+  }
+  section div h1 a:hover{
+     
+      
+    background-color:#5383d3;
+    padding:5px;
+    border-radius:10px;
+	color:black;
+	height: 25px;
+    font-weight: bolder;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    
+  }
+
+
+H1{
+    font-family: cursive;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:black;
+  border-style: solid;
+  border-color:white;
+  border-width: 1.5px;
+  height:85px;
+}
+
+.header .logo {
+  font-size: 50px;
+  font-family:cursive;
+  color:WHITE;
+  text-decoration: none;
+  margin-left: 30px;
+  font-weight:bolder ;
+}
+.header .logo span{
+	color:#5383d3
+}
+
+.nav-items {
+  font-family:cursive;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:BLACK;
+  margin-right: 10px;
+  font-weight: bolder;
+
+}
+
+.nav-items a {
+  text-decoration: none;
+  color:WHITE;
+  padding: 20px 40px;
+}
+
+
+/*code for footer*/
+
+footer{
+  display:flex;
+	position:none;
+	bottom: 0;
+	border-style: solid;
+    border-color:white;
+    border-width: 2px;
+}
+.footer-distributed{
+	background-color:black;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+ 
+	padding: 55px 55px;
+	margin-top: 3px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+	width: 40%;
+	line-height:none;
+}
+ 
+.footer-distributed .footer-left h4{
+font-size:20px ;
+ font-family:Arial, Helvetica, sans-serif;
+ color: #fff;
+}
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+ 
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+	width: 20%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:#5383d3;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+	font-family: cursive;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:#5383d3;
+	font-size: 25px;
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:#fff;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed{
+		font: bold 14px sans-serif;
+ 
+	}
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+.next a:hover{
+    background-color:#5383d3;
+    padding:5px;
+    border-radius:10px;
+	color:black;
+	height: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+
+    
+}
+
+.next a{
+font-size: 20px;
+font-family: cursive;
+font-weight: bold;
+border-style:solid;
+background-color:#5383d3;
+    padding:10px;
+    border-radius:10px;
+	color:#33383b;
+text-decoration: none;
+
+}
+
+</style>
+
+</head>
+<body>
+   <header class="header">
+
+        <h1 class="logo">
+          <span>CSS </span>PROGRAMS
+        </h1>
+     
+      <nav class="nav-items">
+         <a href="index.html">HOME</a>
+         
+      </nav>
+    </header>
+    <div class="content">
+        <div class="main-content">
+            
+        <p>
+         <H1>PROGRAM.17:</H1>
+        </p>
+<section>
+    <div>
+        <h1> <a href="q17.txt" target="code">CODe:</a> </h1>
+        
+          
+    </div>
+</section>
+<br><br>
+<iframe  width="90%" height="400" name="code"></iframe>
+<section>
+  <div>
+      
+      <h1>  <a href="q17.html" target="output">OuTPuT:</a></h1>
+        
+  </div>
+</section>
+<iframe style="text-align: center;" width="90%" height="400" name="output" ></iframe>
+</body><br> <btn class="next">
+    <a href="css/C.css">BACK</a>
+    <a href="">REFRESH</a>
+</btn>
+
+
+
+<p>   
+
+
+</p>
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+        <p class="footer-head">
+           <h4>DESIGNED BY</h4></p> 
+           <h3>ASH <span>TOGARH</span></h3>
+                       
+         <p class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="#">About</a>
+         </p>
+      
+         <p class="footer-company-name"></p>
+         </div>
+             
+             <div class="footer-center">
+             <div><i class="fa fa-heading"></i>
+             <P> CONTACT US</P>
+             </div>
+     
+             <div><i class="fa fa-map-marker"></i>
+             <p>PUNJAB,INDIA</p>
+             </div>
+      
+             <div><i class="fa fa-phone"></i>
+             <p>+917717646418</p>
+             </div>
+      
+             <div>
+             <i class="fa fa-envelope"></i>
+             <p><a href="Togarh@gmail.com">Tograh@gmail.com</a></p>
+              </div>
+      
+             </div>
+      
+             <div class="footer-right">
+     
+             <p class="footer-company-about">
+             <span>SOCIAL LINKS </span>
+                     <div class="footer-icons">
+                     <a href="#"><i class="fa fa-instagram"></i></a>
+                     <a href="#"><i class="fa fa-you"></i></a>
+                     <a href="#"><i class="fa fa-linkedin"></i></a>
+                     <a href="#"><i class="fa fa-github"></i></a>
+             </div>
+      
+         </div>
+      
+     </footer>
+
+
+
+
+</body>
+</html>
